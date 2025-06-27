@@ -1,0 +1,28 @@
+/*  mystyles.css  |  custom tweaks for bootstrap pages  */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #222;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    letter-spacing: 1px;
+  }
+  
+  .highlight {
+    color: #005cbf;
+    font-weight: bold;
+  }
+  
+  p.lead {
+    text-align: justify;
+  }
+  
+  /* on-page anchor targets offset */
+  :target::before {
+    content: "";
+    display: block;
+    height: 70px;
+    margin-top: -70px;
+  }
+  
