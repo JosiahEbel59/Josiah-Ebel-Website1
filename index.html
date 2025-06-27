@@ -1,0 +1,119 @@
+<!--
+    Author: Josiah Ebel
+    Last-edited: 2025-06-26
+    File: index.html  (root level)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Josiah Ebel – Home</title>
+
+    <!-- mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+
+    <!--  ✅ core theme CSS (moved to /styles ) -->
+    <link href="styles/business-casual.min.css" rel="stylesheet">
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <!--  ✅ YOUR overrides -->
+    <link rel="stylesheet" href="styles/mystyles.css">
+</head>
+
+<body>
+    <!-- ======  HEADER  ====== -->
+    <header>
+        <h1 class="site-heading text-center text-faded d-none d-lg-block">
+            <span class="site-heading-upper text-primary mb-3">Welcome to My Résumé Site</span>
+            <span class="site-heading-lower">Josiah Ebel</span>
+        </h1>
+    </header>
+
+    <!-- ======  NAV  ====== -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Josiah Ebel</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
+
+                    <!-- point to files inside /html  -->
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="html/aboutme.html">About&nbsp;Me</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="html/tableau.html">Tableau&nbsp;Dashboards</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ======  HERO / INTRO  ====== -->
+    <section class="page-section clearfix">
+        <div class="container">
+            <div class="intro">
+                <!--  ✅ image path updated to /images  -->
+                <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="images/IMG_9101.JPG"
+                     alt="Cup of coffee on table">
+
+                <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                    <h2 class="section-heading mb-4">
+                        <span class="section-heading-upper">Problem-Solver&nbsp;| Team-Player</span>
+                        <span class="section-heading-lower">Seattle, WA</span>
+                    </h2>
+
+                    <p class="mb-3">
+                        Hi, I’m Josiah, a Gonzaga business-marketing student and avid outdoor
+                        enthusiast. Explore my résumé, projects, and interactive Tableau dashboards!
+                    </p>
+
+                    <div class="intro-button mx-auto">
+                        <a class="btn btn-primary btn-xl" href="html/aboutme.html">Learn&nbsp;More&nbsp;About&nbsp;Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======  CTA  ====== -->
+    <section class="page-section cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <div class="cta-inner bg-faded text-center rounded">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">My&nbsp;Promise</span>
+                            <span class="section-heading-lower">Professionalism&nbsp;&amp;&nbsp;Positivity</span>
+                        </h2>
+                        <p class="mb-0">
+                            Whether bussing tables at Chinook’s or building web pages, I strive to serve
+                            with a positive attitude, strong work ethic, and commitment to quality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======  FOOTER  ====== -->
+    <footer class="footer text-faded text-center py-5">
+        <div class="container">
+            <p class="m-0 small">&copy; 2025&nbsp;Josiah Ebel&nbsp;|&nbsp;<a href="mailto:josiahebel@icloud.com">josiahebel@icloud.com</a></p>
+        </div>
+    </footer>
+
+    <!-- ======  BOOTSTRAP JS  ====== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- ======  THEME JS  ====== -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+

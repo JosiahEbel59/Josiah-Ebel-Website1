@@ -1,0 +1,138 @@
+<!--
+  tableau.html – Josiah Ebel – last edit 2025-06-27
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tableau Dashboards – Josiah Ebel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--  ONLY your custom styles  -->
+  <link rel="stylesheet" href="../styles/bootstyles.css">
+</head>
+
+<body>
+
+  <!-- ░░░ H E A D E R /   N A V ░░░ -->
+  <header class="topbar">
+    <h1>Interactive Analytics</h1>
+    <nav>
+      <ul>
+        <li><a href="#states">State Map</a></li>
+        <li><a href="#camonth">CA Monthly</a></li>
+        <li><a href="#cacat">CA Category</a></li>
+        <li><a href="#caforecast">CA Forecast</a></li>
+        <li><a href="../index.html">← Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ░░░ M A I N   C O N T E N T ░░░ -->
+  <main class="dashboards">
+
+    <!-- ── #1 Profit by State ───────────────────────────── -->
+    <section id="states">
+      <h2>Profit by State (US)</h2>
+      <p class="caption">Hover to see values; darker = higher profit.</p>
+
+      <div class="tableauPlaceholder" id="vizState" style="width:100%;height:700px;">
+        <object class="tableauViz" style="display:none;">
+          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+          <param name="embed_code_version" value="3"/>
+          <param name="site_root" value=""/>
+          <!--  Replace this path if it 404s  -->
+          <param name="name" value="shared/QWR9S3RGR"/>
+          <param name="tabs" value="no"/>
+          <param name="toolbar" value="yes"/>
+          <param name="animate_transition" value="yes"/>
+          <param name="display_spinner" value="yes"/>
+          <param name="display_overlay" value="yes"/>
+          <param name="display_count" value="yes"/>
+          <param name="language" value="en-US"/>
+        </object>
+      </div>
+    </section>
+
+    <!-- ── #2 Monthly Profit – CA ───────────────────────── -->
+    <section id="camonth">
+      <h2>Monthly Profit – California (last 2 years)</h2>
+      <p class="caption">Profits dip each January and spike in Nov-Dec.</p>
+
+      <div class="tableauPlaceholder" id="vizCaMonth" style="width:100%;height:700px;">
+        <object class="tableauViz" style="display:none;">
+          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+          <param name="embed_code_version" value="3"/>
+          <param name="site_root" value=""/>
+          <param name="name" value="JosiahEbelFinal/MonthlyProfitforCalifornia"/>
+          <param name="tabs" value="no"/>
+          <param name="toolbar" value="yes"/>
+          <param name="animate_transition" value="yes"/>
+          <param name="display_spinner" value="yes"/>
+          <param name="display_overlay" value="yes"/>
+          <param name="display_count" value="yes"/>
+          <param name="language" value="en-US"/>
+        </object>
+      </div>
+    </section>
+
+    <!-- ── #3 Category Profit – CA ──────────────────────── -->
+    <section id="cacat">
+      <h2>Category Profit – California</h2>
+      <p class="caption">Technology outperforms Furniture &amp; Office Supplies.</p>
+
+      <div class="tableauPlaceholder" id="vizCaCat" style="width:100%;height:700px;">
+        <object class="tableauViz" style="display:none;">
+          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+          <param name="embed_code_version" value="3"/>
+          <param name="site_root" value=""/>
+          <param name="name" value="JosiahEbelFinal/CategoryprofitforCalifornia"/>
+          <param name="tabs" value="no"/>
+          <param name="toolbar" value="yes"/>
+          <param name="animate_transition" value="yes"/>
+          <param name="display_spinner" value="yes"/>
+          <param name="display_overlay" value="yes"/>
+          <param name="display_count" value="yes"/>
+          <param name="language" value="en-US"/>
+        </object>
+      </div>
+    </section>
+
+    <!-- ── #4 Forecast – Top Category ───────────────────── -->
+    <section id="caforecast">
+      <h2>Sales Forecast – Top Category (CA)</h2>
+      <p class="caption">Projected sales through Nov 2015.</p>
+
+      <div class="tableauPlaceholder" id="vizCaForecast" style="width:100%;height:700px;">
+        <object class="tableauViz" style="display:none;">
+          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+          <param name="embed_code_version" value="3"/>
+          <param name="site_root" value=""/>
+          <param name="name" value="JosiahEbelFinal/Salesfortopcategory"/>
+          <param name="tabs" value="no"/>
+          <param name="toolbar" value="yes"/>
+          <param name="animate_transition" value="yes"/>
+          <param name="display_spinner" value="yes"/>
+          <param name="display_overlay" value="yes"/>
+          <param name="display_count" value="yes"/>
+          <param name="language" value="en-US"/>
+        </object>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ░░░ F O O T E R ░░░ -->
+  <footer class="bottombar">
+    © 2025 Josiah Ebel – Data Source: Tableau Superstore
+  </footer>
+
+  <!--  Load the Tableau JS API *once* at the bottom  -->
+  <script src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
+
+</body>
+</html>
+
+
+
+
